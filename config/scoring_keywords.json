@@ -1,0 +1,93 @@
+{
+  "TIER_1_SEPARATOR": {
+    "score": 100,
+    "keywords": [
+      "battery separator",
+      "lithium-ion separator",
+      "li-ion separator",
+      "separator film",
+      "diaphragm",
+      "polyolefin separator",
+      "锂电池隔膜",
+      "锂离子电池隔膜",
+      "动力电池隔膜",
+      "隔膜"
+    ]
+  },
+  "TIER_2_TECH": {
+    "score": 40,
+    "keywords": [
+      "wet process",
+      "dry process",
+      "coating",
+      "coated separator",
+      "ceramic coating",
+      "PVDF coating",
+      "solid-state",
+      "microporous",
+      "湿法",
+      "干法",
+      "涂覆",
+      "涂层",
+      "陶瓷涂覆",
+      "固态电池"
+    ]
+  },
+  "TIER_3_APPLICATION": {
+    "score": 100,
+    "keywords": [
+      "lithium-ion battery",
+      "li-ion",
+      "EV battery",
+      "energy storage",
+      "electric vehicle",
+      "EV",
+      "NEV",
+      "锂电池",
+      "动力电池",
+      "储能",
+      "新能源汽车",
+      "电动汽车"
+    ]
+  },
+  "COMPANIES": {
+    "score": 40,
+    "keywords": [
+      "Asahi Kasei",
+      "Toray",
+      "Celgard",
+      "SK",
+      "SKIET",
+      "Entek",
+      "SEMCORP",
+      "恩捷股份",
+      "星源材质",
+      "CATL",
+      "宁德时代",
+      "BYD",
+      "比亚迪"
+    ]
+  },
+  "ACTIONS": {
+    "score": 40,
+    "keywords": [
+      "start-up",
+      "commissioning",
+      "expansion",
+      "capacity",
+      "GWh",
+      "breakthrough",
+      "patent",
+      "investment",
+      "partnership",
+      "投产",
+      "扩产",
+      "产能",
+      "突破",
+      "专利",
+      "投资",
+      "合作"
+    ]
+  }
+}
+

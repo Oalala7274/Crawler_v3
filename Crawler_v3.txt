@@ -1,0 +1,45 @@
+Separator_Crawler_v3/
+├── main.py                    # 主入口
+├── create_excel_template.py   # Excel模板生成脚本
+├── requirements.txt           # Python依赖
+├── README.md                  # 项目文档
+├── config/
+│   ├── settings.json          # 全局设置
+│   ├── keyword_sets.json      # 搜索关键词配置
+│   ├── scoring_keywords.json  # 打分关键词配置
+│   ├── date_formats.json      # 日期格式映射
+│   └── parsers.json           # 网站解析规则
+├── pipeline/
+│   ├── a_prepare.py           # A模块：准备任务
+│   ├── b_browser.py           # B模块：浏览器操作
+│   ├── c_extract.py           # C模块：数据提取
+│   ├── d_filter.py            # D模块：筛选过滤
+│   ├── e_sort.py              # E模块：去重排序
+│   └── f_translate.py         # F模块：翻译输出
+├── engine/
+│   ├── edge_driver.py         # Edge浏览器驱动
+│   └── actions.py             # Selenium动作库
+└── utils/
+    ├── config_loader.py       # 配置加载器
+    ├── date_parser.py         # 日期解析器
+    ├── logger.py              # 日志模块
+    └── models.py              # 数据模型
+使用方法
+安装依赖：
+pip install -r requirements.txt
+创建Excel模板：
+python create_excel_template.py
+配置 config/settings.json：
+修改 MINIMUM_DATE_TO_KEEP 设置最小保留日期
+修改 PASS_SCORE_THRESHOLD 设置分数阈值
+如需翻译，设置 GOOGLE_TRANSLATE_API_KEY
+运行爬虫：
+python main.py
+主要功能
+🌐 支持多网站爬取（Google News、Reuters、Argus Media、Bing News 等）
+🔍 灵活的关键词搜索配置
+📊 智能打分筛选机制（支持多层级关键词评分）
+📅 多格式日期解析（包括相对时间如"3天前"）
+🌍 Google Translate 翻译支持
+⏸️ 人工介入暂停机制（验证码处理）
+📝 JSONL 流式数据处理

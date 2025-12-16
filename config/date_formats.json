@@ -1,0 +1,27 @@
+{
+  "site_formats": {
+    "argusmedia.com": {
+      "format": "%d/%m/%y",
+      "example": "11/12/24"
+    },
+    "reuters.com": {
+      "format": "%B %d, %Y",
+      "example": "December 11, 2024"
+    },
+    "metal.com": {
+      "format": "%Y-%m-%d",
+      "example": "2024-12-11"
+    }
+  },
+  "default_formats": [
+    "%Y-%m-%d",
+    "%B %d, %Y",
+    "%b %d, %Y",
+    "%d %B %Y",
+    "%d %b %Y",
+    "%Y/%m/%d",
+    "%d/%m/%Y",
+    "%d/%m/%y"
+  ]
+}
+

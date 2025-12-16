@@ -1,0 +1,105 @@
+{
+  "ASAHI_KASEI_NEWS": {
+    "item_container": { "type": "css", "selector": "ul.news-list-01 li" },
+    "title": { "tag": "b", "attrs": {} },
+    "date_source": { "tag": "span", "attrs": { "class": "day" } },
+    "teaser": { "tag": "b", "attrs": {} },
+    "url_logic": { "method": "find_in_container", "tag": "a", "attrs": {} }
+  },
+  "ARGUS_MEDIA_SEARCH": {
+    "item_container": { "type": "css", "selector": "div.qa-news-item" },
+    "title": { "type": "css", "selector": "h3.qa-item-title" },
+    "url_logic": {
+      "method": "url_from_element",
+      "type": "css",
+      "selector": "a.qa-news-item-content"
+    },
+    "date_source": { "type": "css", "selector": "p.qa-item-date" },
+    "teaser": { "type": "css", "selector": "p.qa-item-summary" }
+  },
+  "REUTERS_SEARCH": {
+    "item_container": { "tag": "li", "attrs": { "data-testid": "StoryCard" } },
+    "title": { "tag": "span", "attrs": { "data-testid": "TitleHeading" } },
+    "date_source": {
+      "tag": "time",
+      "attrs": { "data-testid": "DateLineText" }
+    },
+    "teaser": { "tag": "span", "attrs": { "data-testid": "TitleHeading" } },
+    "url_logic": {
+      "method": "find_in_container",
+      "tag": "a",
+      "attrs": { "data-testid": "TitleLink" }
+    }
+  },
+  "google_news": {
+    "item_container": { "type": "css", "selector": "div[jslog*='85008']" },
+    "title": {
+      "type": "css",
+      "selector": "a[href^='./read/']:not([aria-hidden='true'])"
+    },
+    "url_logic": { "method": "url_from_title" },
+    "date_source": {
+      "method": "read_attribute",
+      "attribute": "datetime",
+      "type": "css",
+      "selector": "time"
+    },
+    "teaser": null
+  },
+  "BING_NEWS_SEARCH": {
+    "item_container": {
+      "tag": "div",
+      "attrs": { "class__contains": "news-card" }
+    },
+    "title": { "tag": "a", "attrs": { "class": "title" } },
+    "url_logic": { "method": "url_from_title" },
+    "date_source": { "type": "css", "selector": "div.source span[aria-label]" },
+    "teaser": { "tag": "div", "attrs": { "class": "snippet" } }
+  },
+  "METAL_COM_SEARCH": {
+    "item_container": {
+      "tag": "div",
+      "attrs": { "class__contains": "newsItem___" }
+    },
+    "title": { "tag": "div", "attrs": { "class__contains": "title___" } },
+    "url_logic": {
+      "method": "url_from_element",
+      "tag": "a",
+      "attrs": { "href": true }
+    },
+    "date_source": { "tag": "div", "attrs": { "class__contains": "date___" } },
+    "teaser": { "tag": "div", "attrs": { "class__contains": "description___" } }
+  },
+  "BATTERIES_NEWS_SEARCH": {
+    "item_container": {
+      "tag": "article",
+      "attrs": { "class__contains": "gridlove-post" }
+    },
+    "title": { "tag": "h2", "attrs": { "class__contains": "entry-title" } },
+    "url_logic": { "method": "url_from_title" },
+    "date_source": { "tag": "span", "attrs": { "class": "updated" } },
+    "teaser": null
+  },
+  "entek_news": {
+    "item_container": {
+      "tag": "article",
+      "attrs": { "class__contains": "et_pb_post" }
+    },
+    "title": { "tag": "h2", "attrs": { "class": "entry-title" } },
+    "url_logic": { "method": "url_from_title" },
+    "date_source": { "tag": "span", "attrs": { "class": "published" } },
+    "teaser": { "type": "css", "selector": "div.post-data p" }
+  },
+  "sk_news": {
+    "item_container": { "tag": "div", "attrs": { "class": "grid__col" } },
+    "title": { "tag": "p", "attrs": { "class": "h3" } },
+    "url_logic": {
+      "method": "find_in_container",
+      "tag": "a",
+      "attrs": { "class__contains": "card--news" }
+    },
+    "date_source": { "tag": "div", "attrs": { "class": "card__footer" } },
+    "teaser": null
+  }
+}
+

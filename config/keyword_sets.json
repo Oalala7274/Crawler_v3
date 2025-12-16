@@ -1,0 +1,25 @@
+{
+  "SEARCH_SEPARATOR_GENERAL": ["battery separator", "separator", "battery"],
+  "SEARCH_SEPARATOR_DETAILED": [
+    "wet-process separator",
+    "dry-process separator",
+    "coated separator",
+    "ceramic coating",
+    "solid-state separator",
+    "polyolefin separator",
+    "湿法隔膜",
+    "干法隔膜",
+    "涂覆隔膜",
+    "陶瓷涂覆"
+  ],
+  "COMBINED_SEARCH": {
+    "sources": ["SEARCH_SEPARATOR_GENERAL", "SEARCH_SEPARATOR_DETAILED"],
+    "type": "union"
+  },
+  "KEYWORD_SETS_MAPPING": {
+    "SEARCH_Q": "SEARCH_SEPARATOR_GENERAL",
+    "SEARCH_2": "COMBINED_SEARCH",
+    "NONE": []
+  }
+}
+

@@ -1,0 +1,20 @@
+# Separator Crawler v3.0 依赖
+# Python 3.11+ 兼容
+
+# 浏览器自动化
+selenium>=4.0.0
+
+# Excel处理
+openpyxl>=3.0.0
+
+# HTML解析
+beautifulsoup4>=4.9.0
+lxml>=4.6.0
+
+# Google翻译 (选择其一)
+# 方案1: Google Cloud Translation API (需要API密钥)
+# google-cloud-translate>=3.0.0
+
+# 方案2: 免费翻译库 (推荐)
+googletrans==4.0.0-rc1
+
