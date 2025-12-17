@@ -1,0 +1,519 @@
+(.Crawler) PS C:\VsodeProject\Separator_Crawler_v3> python main.py
+
+╔══════════════════════════════════════════════════════════╗
+║                                                          ║
+║          Separator Crawler v3.0                          ║
+║          锂电池隔膜行业新闻爬虫系统                          ║
+║                                                          ║
+╚══════════════════════════════════════════════════════════╝
+
+启动时间: 2025-12-17 13:02:01
+项目目录: C:\VsodeProject\Separator_Crawler_v3
+============================================================
+
+【初始化】
+日志文件: C:\VsodeProject\Separator_Crawler_v3\log\20251217_130201_crawler.log
+  • 最小保留日期: 2025-12-16
+  • 通过分数阈值: 80
+  • 跳过关键词评分: False
+
+============================================================
+【Step A】准备搜索任务
+============================================================
+📄 读取Excel: 国际隔膜信息源.xlsx
+   读取到 5 条有效配置
+   生成 20 个爬取任务
+   任务文件: C:\VsodeProject\Separator_Crawler_v3\temp\tasks.jsonl
+
+✓ 共生成 20 个爬取任务
+
+============================================================
+【Step B+C】执行任务并提取数据
+============================================================
+Error sending stats to Plausible: error sending request for url (https://plausible.io/api/event)
+
+DevTools listening on ws://127.0.0.1:56579/devtools/browser/78250b7c-c68d-4783-bfc0-99c7718076e9
+✓ Edge浏览器启动成功
+
+[1/20] 处理任务
+  URL: https://news.google.com/search?q=Separator&hl=en...
+  解析器: google_news
+  动作: WAIT
+任务开始: 4d07550d | URL: https://news.google.com/search?q=Separator&hl=en...
+[31844:27236:1217/130214.401:ERROR:chrome\browser\task_manager\providers\fallback_task_provider.cc:126] Every renderer should have at least one task provided by a primary task provider. If a "Renderer" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/739782.
+[31844:27236:1217/130214.525:ERROR:chrome\browser\task_manager\providers\fallback_task_provider.cc:126] Every renderer should have at least one task provided by a primary task provider. If a "Renderer" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/739782.
+[31844:27236:1217/130218.168:ERROR:components\device_event_log\device_event_log_impl.cc:244] [13:02:18.169] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 鎵句笉鍒板厓绱犮€?(0x490)
+
+  ✓ 提取到 100 条数据
+
+[2/20] 处理任务
+  URL: https://www.reuters.com/site-search/?query=battery separator...
+  解析器: REUTERS_SEARCH
+  动作: INFINITE_SCROLL
+任务开始: 2182a3de | URL: https://www.reuters.com/site-search/?query=battery separator...
+[31844:27236:1217/130222.206:ERROR:chrome\browser\task_manager\providers\fallback_task_provider.cc:126] Every renderer should have at least one task provided by a primary task provider. If a "Renderer" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/739782.
+[31844:27236:1217/130222.680:ERROR:chrome\browser\task_manager\providers\fallback_task_provider.cc:126] Every renderer should have at least one task provided by a primary task provider. If a "Renderer" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/739782.
+[3124:16360:1217/130222.740:ERROR:gpu\command_buffer\service\gles2_cmd_decoder_passthrough.cc:1091] [GroupMarkerNotSet(crbug.com/242999)!:A8401900CC410000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.
+[3124:16360:1217/130223.100:ERROR:gpu\command_buffer\service\webgpu_decoder_impl.cc:1703] Failed to query ID3D11Device from ANGLE.
+[3124:16360:1217/130223.192:ERROR:gpu\command_buffer\service\gles2_cmd_decoder_passthrough.cc:1091] [GroupMarkerNotSet(crbug.com/242999)!:A8701900CC410000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.
+[30300:31364:1217/130225.463:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130225.464:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -103
+[30300:31364:1217/130225.525:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130225.527:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[3124:16360:1217/130225.824:ERROR:gpu\command_buffer\service\gles2_cmd_decoder_passthrough.cc:1091] [GroupMarkerNotSet(crbug.com/242999)!:A8701900CC410000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.
+[30300:31364:1217/130226.914:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130227.107:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130227.126:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130227.127:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130227.705:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130227.706:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130228.037:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130228.241:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130228.650:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130228.651:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130229.178:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130229.181:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130229.186:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130229.188:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130229.189:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130229.191:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130229.200:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130229.201:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130229.324:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130229.326:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -101
+[30300:31364:1217/130229.327:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130229.330:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130229.330:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130229.331:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -103
+[30300:31364:1217/130229.335:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130229.336:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130229.364:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130229.366:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130229.391:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130229.392:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[31844:27236:1217/130229.707:ERROR:chrome\browser\task_manager\providers\fallback_task_provider.cc:126] Every renderer should have at least one task provided by a primary task provider. If a "Renderer" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/739782.
+[31844:27236:1217/130229.942:ERROR:chrome\browser\task_manager\providers\fallback_task_provider.cc:126] Every renderer should have at least one task provided by a primary task provider. If a "Renderer" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/739782.
+[31844:27236:1217/130229.989:ERROR:chrome\browser\task_manager\providers\fallback_task_provider.cc:126] Every renderer should have at least one task provided by a primary task provider. If a "Renderer" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/739782.
+[30300:31364:1217/130230.260:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130230.260:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130230.263:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130230.263:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130230.269:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -103
+[30300:31364:1217/130230.270:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -103
+[30300:31364:1217/130230.315:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -103
+[30300:31364:1217/130230.315:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130230.318:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130230.322:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -103
+[30300:31364:1217/130230.326:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130230.328:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+  ✓ 提取到 19 条数据
+
+[3/20] 处理任务
+  URL: https://www.reuters.com/site-search/?query=separator...
+  解析器: REUTERS_SEARCH
+  动作: INFINITE_SCROLL
+任务开始: 8ad433d5 | URL: https://www.reuters.com/site-search/?query=separator...
+[30300:31364:1217/130231.035:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130231.037:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130231.228:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130231.230:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130231.433:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130231.434:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[3124:16360:1217/130231.564:ERROR:gpu\command_buffer\service\gles2_cmd_decoder_passthrough.cc:1091] [GroupMarkerNotSet(crbug.com/242999)!:A8401900CC410000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.
+[30300:31364:1217/130231.672:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130231.674:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130231.736:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130231.738:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130232.674:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130232.676:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130233.803:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130233.809:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130233.825:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130233.827:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130233.942:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130233.945:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130233.948:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130233.950:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -103
+[30300:31364:1217/130233.951:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -101
+[30300:31364:1217/130233.953:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130233.971:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130233.973:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130234.021:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130234.024:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130234.024:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130234.025:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130234.027:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130234.030:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130234.033:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130234.035:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130234.559:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -103
+[30300:31364:1217/130234.559:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130234.561:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -103
+[30300:31364:1217/130234.563:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130234.564:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -103
+[30300:31364:1217/130234.567:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130234.569:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[31844:27236:1217/130234.621:ERROR:chrome\browser\task_manager\providers\fallback_task_provider.cc:126] Every renderer should have at least one task provided by a primary task provider. If a "Renderer" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/739782.
+[31844:27236:1217/130234.701:ERROR:chrome\browser\task_manager\providers\fallback_task_provider.cc:126] Every renderer should have at least one task provided by a primary task provider. If a "Renderer" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/739782.
+[31844:27236:1217/130235.119:ERROR:chrome\browser\task_manager\providers\fallback_task_provider.cc:126] Every renderer should have at least one task provided by a primary task provider. If a "Renderer" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/739782.
+[30300:31364:1217/130235.155:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130235.158:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+  ✓ 提取到 20 条数据
+
+[4/20] 处理任务
+  URL: https://www.reuters.com/site-search/?query=battery...
+  解析器: REUTERS_SEARCH
+  动作: INFINITE_SCROLL
+任务开始: 224d0f84 | URL: https://www.reuters.com/site-search/?query=battery...
+[30300:31364:1217/130242.256:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -103
+[30300:31364:1217/130242.452:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130242.453:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130242.586:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130242.588:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[3124:16360:1217/130242.706:ERROR:gpu\command_buffer\service\gles2_cmd_decoder_passthrough.cc:1091] [GroupMarkerNotSet(crbug.com/242999)!:A8A01900CC410000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.
+[30300:31364:1217/130242.840:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130242.842:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130242.921:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130242.923:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130243.803:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130243.806:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130244.934:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130244.936:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130244.953:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130244.955:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130245.066:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130245.069:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130245.072:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130245.074:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130245.074:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130245.076:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130245.081:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -103
+[30300:31364:1217/130245.095:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130245.097:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130245.099:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130245.101:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130245.102:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130245.105:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130245.108:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130245.111:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130245.631:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130245.632:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130245.633:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130245.634:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -101
+[30300:31364:1217/130245.637:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -103
+[30300:31364:1217/130245.639:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130245.641:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -101
+[31844:27236:1217/130245.743:ERROR:chrome\browser\task_manager\providers\fallback_task_provider.cc:126] Every renderer should have at least one task provided by a primary task provider. If a "Renderer" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/739782.
+[31844:27236:1217/130245.821:ERROR:chrome\browser\task_manager\providers\fallback_task_provider.cc:126] Every renderer should have at least one task provided by a primary task provider. If a "Renderer" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/739782.
+[31844:27236:1217/130246.053:ERROR:chrome\browser\task_manager\providers\fallback_task_provider.cc:126] Every renderer should have at least one task provided by a primary task provider. If a "Renderer" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/739782.
+[30300:31364:1217/130246.258:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130246.414:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+  ✓ 提取到 20 条数据
+
+[5/20] 处理任务
+  URL: https://www.reuters.com/site-search/?query=lithium battery...
+  解析器: REUTERS_SEARCH
+  动作: INFINITE_SCROLL
+任务开始: 69df974e | URL: https://www.reuters.com/site-search/?query=lithium battery...
+[30300:31364:1217/130252.962:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -103
+[30300:31364:1217/130253.199:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -101
+[30300:31364:1217/130253.201:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130253.335:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130253.337:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[3124:16360:1217/130253.451:ERROR:gpu\command_buffer\service\gles2_cmd_decoder_passthrough.cc:1091] [GroupMarkerNotSet(crbug.com/242999)!:A8D01900CC410000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.
+[30300:31364:1217/130253.580:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130253.582:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -101
+[30300:31364:1217/130253.657:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130253.660:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130254.547:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130254.558:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130255.695:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130255.695:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130255.718:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130255.720:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130255.840:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130255.842:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130255.846:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130255.847:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130255.849:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130255.849:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130255.864:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130255.867:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -103
+[30300:31364:1217/130255.867:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -103
+[30300:31364:1217/130255.871:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130255.872:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -101
+[30300:31364:1217/130255.874:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -101
+[30300:31364:1217/130255.875:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130255.880:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130255.882:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130256.355:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130256.357:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -103
+[30300:31364:1217/130256.358:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130256.360:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130256.362:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130256.364:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -103
+[30300:31364:1217/130256.366:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130256.368:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[31844:27236:1217/130256.530:ERROR:chrome\browser\task_manager\providers\fallback_task_provider.cc:126] Every renderer should have at least one task provided by a primary task provider. If a "Renderer" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/739782.
+[31844:27236:1217/130256.592:ERROR:chrome\browser\task_manager\providers\fallback_task_provider.cc:126] Every renderer should have at least one task provided by a primary task provider. If a "Renderer" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/739782.
+[31844:27236:1217/130256.824:ERROR:chrome\browser\task_manager\providers\fallback_task_provider.cc:126] Every renderer should have at least one task provided by a primary task provider. If a "Renderer" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/739782.
+  ✓ 提取到 20 条数据
+
+[6/20] 处理任务
+  URL: https://www.reuters.com/site-search/?query=PE separator...
+  解析器: REUTERS_SEARCH
+  动作: INFINITE_SCROLL
+任务开始: 17b9e99d | URL: https://www.reuters.com/site-search/?query=PE separator...
+[30300:31364:1217/130301.515:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130301.517:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130301.956:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130301.957:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130302.095:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130302.096:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[3124:16360:1217/130302.206:ERROR:gpu\command_buffer\service\gles2_cmd_decoder_passthrough.cc:1091] [GroupMarkerNotSet(crbug.com/242999)!:A8A01900CC410000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.
+[30300:31364:1217/130302.216:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130302.218:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130302.283:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130302.286:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130303.327:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130303.329:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130304.481:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130304.486:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130304.502:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130304.503:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130304.613:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130304.616:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -103
+[30300:31364:1217/130304.620:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -101
+[30300:31364:1217/130304.621:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130304.624:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -103
+[30300:31364:1217/130304.624:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130304.638:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130304.641:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -103
+[30300:31364:1217/130304.642:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130304.647:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -103
+[30300:31364:1217/130304.647:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130304.649:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130304.653:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130304.655:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130305.111:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130305.111:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130305.113:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -101
+[30300:31364:1217/130305.115:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -103
+[30300:31364:1217/130305.115:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -103
+[30300:31364:1217/130305.118:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -103
+[31844:27236:1217/130305.302:ERROR:chrome\browser\task_manager\providers\fallback_task_provider.cc:126] Every renderer should have at least one task provided by a primary task provider. If a "Renderer" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/739782.
+[31844:27236:1217/130305.376:ERROR:chrome\browser\task_manager\providers\fallback_task_provider.cc:126] Every renderer should have at least one task provided by a primary task provider. If a "Renderer" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/739782.
+[31844:27236:1217/130305.599:ERROR:chrome\browser\task_manager\providers\fallback_task_provider.cc:126] Every renderer should have at least one task provided by a primary task provider. If a "Renderer" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/739782.
+    ⚠ 未找到任何容器元素
+  ✓ 提取到 0 条数据
+
+[7/20] 处理任务
+  URL: https://www.reuters.com/site-search/?query=lithium separator...
+  解析器: REUTERS_SEARCH
+  动作: INFINITE_SCROLL
+任务开始: a665faa7 | URL: https://www.reuters.com/site-search/?query=lithium separator...
+[30300:31364:1217/130311.899:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130311.901:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130312.262:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -101
+[30300:31364:1217/130312.264:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130312.405:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130312.408:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130312.527:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130312.529:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -101
+[3124:16360:1217/130312.553:ERROR:gpu\command_buffer\service\gles2_cmd_decoder_passthrough.cc:1091] [GroupMarkerNotSet(crbug.com/242999)!:A8D01900CC410000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.
+[30300:31364:1217/130312.610:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130312.612:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130313.616:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130313.619:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130314.753:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130314.754:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130314.779:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130314.781:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130314.934:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -101
+[30300:31364:1217/130314.937:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130314.941:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130314.944:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -103
+[30300:31364:1217/130314.945:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -101
+[30300:31364:1217/130314.947:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -103
+[30300:31364:1217/130314.965:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130314.967:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130314.969:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130314.971:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -103
+[30300:31364:1217/130314.972:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130314.976:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -101
+[30300:31364:1217/130314.978:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130314.985:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130314.987:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130315.457:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130315.458:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130315.460:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130315.460:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130315.463:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130315.465:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -103
+[30300:31364:1217/130315.466:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[30300:31364:1217/130315.469:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[31844:27236:1217/130315.616:ERROR:chrome\browser\task_manager\providers\fallback_task_provider.cc:126] Every renderer should have at least one task provided by a primary task provider. If a "Renderer" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/739782.
+[31844:27236:1217/130315.694:ERROR:chrome\browser\task_manager\providers\fallback_task_provider.cc:126] Every renderer should have at least one task provided by a primary task provider. If a "Renderer" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/739782.
+[31844:27236:1217/130315.895:ERROR:chrome\browser\task_manager\providers\fallback_task_provider.cc:126] Every renderer should have at least one task provided by a primary task provider. If a "Renderer" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/739782.
+  ✓ 提取到 13 条数据
+
+[8/20] 处理任务
+  URL: https://www.bing.com/news/search?q=battery separator&qft=sortbydate%3d...
+  解析器: BING_NEWS_SEARCH
+  动作: WAIT
+任务开始: 63f1bb8e | URL: https://www.bing.com/news/search?q=battery separator&qft=sortbydate%3d%221%22&fo...
+[31844:27236:1217/130319.872:ERROR:chrome\browser\task_manager\providers\fallback_task_provider.cc:126] Every renderer should have at least one task provided by a primary task provider. If a "Renderer" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/739782.
+  ✓ 提取到 34 条数据
+
+[9/20] 处理任务
+  URL: https://www.bing.com/news/search?q=separator&qft=sortbydate%3d%221%22&...
+  解析器: BING_NEWS_SEARCH
+  动作: WAIT
+任务开始: cdbcafe4 | URL: https://www.bing.com/news/search?q=separator&qft=sortbydate%3d%221%22&form=YFNR...
+  ✓ 提取到 38 条数据
+
+[10/20] 处理任务
+  URL: https://www.bing.com/news/search?q=battery&qft=sortbydate%3d%221%22&fo...
+  解析器: BING_NEWS_SEARCH
+  动作: WAIT
+任务开始: 90bd369e | URL: https://www.bing.com/news/search?q=battery&qft=sortbydate%3d%221%22&form=YFNR...
+  ✓ 提取到 40 条数据
+
+[11/20] 处理任务
+  URL: https://www.bing.com/news/search?q=lithium battery&qft=sortbydate%3d%2...
+  解析器: BING_NEWS_SEARCH
+  动作: WAIT
+任务开始: 5082de31 | URL: https://www.bing.com/news/search?q=lithium battery&qft=sortbydate%3d%221%22&form...
+  ✓ 提取到 42 条数据
+
+[12/20] 处理任务
+  URL: https://www.bing.com/news/search?q=PE separator&qft=sortbydate%3d%221%...
+  解析器: BING_NEWS_SEARCH
+  动作: WAIT
+任务开始: 0d4d1348 | URL: https://www.bing.com/news/search?q=PE separator&qft=sortbydate%3d%221%22&form=YF...
+  ✓ 提取到 6 条数据
+
+[13/20] 处理任务
+  URL: https://www.bing.com/news/search?q=lithium separator&qft=sortbydate%3d...
+  解析器: BING_NEWS_SEARCH
+  动作: WAIT
+任务开始: dbe840f9 | URL: https://www.bing.com/news/search?q=lithium separator&qft=sortbydate%3d%221%22&fo...
+  ✓ 提取到 36 条数据
+
+[14/20] 处理任务
+  URL: https://batteriesnews.com/?s=battery separator...
+  解析器: BATTERIES_NEWS_SEARCH
+  动作: WAIT
+任务开始: ea6a6eae | URL: https://batteriesnews.com/?s=battery separator...
+[31844:27236:1217/130355.878:ERROR:chrome\browser\task_manager\providers\fallback_task_provider.cc:126] Every renderer should have at least one task provided by a primary task provider. If a "Renderer" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/739782.
+[31844:27236:1217/130359.694:ERROR:chrome\browser\task_manager\providers\fallback_task_provider.cc:126] Every renderer should have at least one task provided by a primary task provider. If a "Renderer" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/739782.
+[31844:27236:1217/130400.879:ERROR:chrome\browser\task_manager\providers\fallback_task_provider.cc:126] Every renderer should have at least one task provided by a primary task provider. If a "Renderer" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/739782.
+[31844:27236:1217/130400.895:ERROR:chrome\browser\task_manager\providers\fallback_task_provider.cc:126] Every renderer should have at least one task provided by a primary task provider. If a "Renderer" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/739782.
+[3124:16360:1217/130401.028:ERROR:gpu\command_buffer\service\gles2_cmd_decoder_passthrough.cc:1091] [GroupMarkerNotSet(crbug.com/242999)!:A8A01900CC410000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.
+  ✓ 提取到 10 条数据
+
+[15/20] 处理任务
+  URL: https://batteriesnews.com/?s=separator...
+  解析器: BATTERIES_NEWS_SEARCH
+  动作: WAIT
+任务开始: 877498aa | URL: https://batteriesnews.com/?s=separator...
+[3124:16360:1217/130408.171:ERROR:gpu\command_buffer\service\gles2_cmd_decoder_passthrough.cc:1091] [GroupMarkerNotSet(crbug.com/242999)!:A8A01900CC410000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.
+[31844:27236:1217/130408.349:ERROR:chrome\browser\task_manager\providers\fallback_task_provider.cc:126] Every renderer should have at least one task provided by a primary task provider. If a "Renderer" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/739782.
+  ✓ 提取到 10 条数据
+
+[16/20] 处理任务
+  URL: https://batteriesnews.com/?s=battery...
+  解析器: BATTERIES_NEWS_SEARCH
+  动作: WAIT
+任务开始: e2a5dd68 | URL: https://batteriesnews.com/?s=battery...
+[3124:16360:1217/130415.422:ERROR:gpu\command_buffer\service\gles2_cmd_decoder_passthrough.cc:1091] [GroupMarkerNotSet(crbug.com/242999)!:A8A01900CC410000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.
+[31844:27236:1217/130415.783:ERROR:chrome\browser\task_manager\providers\fallback_task_provider.cc:126] Every renderer should have at least one task provided by a primary task provider. If a "Renderer" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/739782.
+  ✓ 提取到 10 条数据
+
+[17/20] 处理任务
+  URL: https://batteriesnews.com/?s=lithium battery...
+  解析器: BATTERIES_NEWS_SEARCH
+  动作: WAIT
+任务开始: 19c7c9b3 | URL: https://batteriesnews.com/?s=lithium battery...
+[3124:16360:1217/130423.339:ERROR:gpu\command_buffer\service\gles2_cmd_decoder_passthrough.cc:1091] [GroupMarkerNotSet(crbug.com/242999)!:A8A01900CC410000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.
+[31844:27236:1217/130423.735:ERROR:chrome\browser\task_manager\providers\fallback_task_provider.cc:126] Every renderer should have at least one task provided by a primary task provider. If a "Renderer" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/739782.
+  ✓ 提取到 10 条数据
+
+[18/20] 处理任务
+  URL: https://batteriesnews.com/?s=PE separator...
+  解析器: BATTERIES_NEWS_SEARCH
+  动作: WAIT
+任务开始: 33e50f11 | URL: https://batteriesnews.com/?s=PE separator...
+[3124:16360:1217/130431.239:ERROR:gpu\command_buffer\service\gles2_cmd_decoder_passthrough.cc:1091] [GroupMarkerNotSet(crbug.com/242999)!:A8401900CC410000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.
+[31844:27236:1217/130431.509:ERROR:chrome\browser\task_manager\providers\fallback_task_provider.cc:126] Every renderer should have at least one task provided by a primary task provider. If a "Renderer" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/739782.
+  ✓ 提取到 10 条数据
+
+[19/20] 处理任务
+  URL: https://batteriesnews.com/?s=lithium separator...
+  解析器: BATTERIES_NEWS_SEARCH
+  动作: WAIT
+任务开始: e4c62f16 | URL: https://batteriesnews.com/?s=lithium separator...
+[3124:16360:1217/130442.646:ERROR:gpu\command_buffer\service\gles2_cmd_decoder_passthrough.cc:1091] [GroupMarkerNotSet(crbug.com/242999)!:A8401900CC410000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.
+[31844:27236:1217/130442.887:ERROR:chrome\browser\task_manager\providers\fallback_task_provider.cc:126] Every renderer should have at least one task provided by a primary task provider. If a "Renderer" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/739782.
+  ✓ 提取到 10 条数据
+
+[20/20] 处理任务
+  URL: https://www.argusmedia.com/en/news-and-insights/latest-market-news...
+  解析器: ARGUS_MEDIA
+  动作: WAIT
+任务开始: a4e40a5c | URL: https://www.argusmedia.com/en/news-and-insights/latest-market-news...
+[31844:27236:1217/130447.931:ERROR:chrome\browser\task_manager\providers\fallback_task_provider.cc:126] Every renderer should have at least one task provided by a primary task provider. If a "Renderer" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/739782.
+[30300:31364:1217/130450.823:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+[31844:27236:1217/130450.984:ERROR:chrome\browser\task_manager\providers\fallback_task_provider.cc:126] Every renderer should have at least one task provided by a primary task provider. If a "Renderer" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/739782.
+[30300:31364:1217/130451.972:ERROR:net\socket\ssl_client_socket_impl.cc:930] handshake failed; returned -1, SSL error code 1, net_error -100
+  ✓ 提取到 27 条数据
+✓ 浏览器已关闭
+
+────────────────────────────────────────
+任务执行统计:
+  • 成功: 20/20
+  • 原始数据: 475 条
+
+============================================================
+【Step D】筛选数据
+============================================================
+    读取到 475 条原始数据
+筛选结果: 475 → 45 (日期>=2025-12-16, 分数>=80)
+
+✓ 筛选后保留 45 条
+
+============================================================
+【Step E】去重排序
+============================================================
+    读取到 45 条筛选后数据
+    去重后剩余 26 条
+排序完成: 45 → 26
+
+✓ 去重后剩余 26 条
+
+============================================================
+【Step F】翻译输出
+============================================================
+    读取到 26 条待翻译数据
+    ⚠ google-cloud-translate 未安装，尝试使用 googletrans
+    ✓ 使用 googletrans 免费翻译
+    翻译进度: 10/26
+    翻译进度: 20/26
+    翻译进度: 26/26
+    翻译完成: 24/26 条
+翻译完成，输出到: C:\VsodeProject\Separator_Crawler_v3\output\2025-12-17_news.txt
+
+✓ 输出文件: C:\VsodeProject\Separator_Crawler_v3\output\2025-12-17_news.txt
+
+============================================================
+【完成】爬虫流程全部完成!
+============================================================
+
+📊 最终统计:
+  • 执行任务: 20 个
+  • 原始数据: 475 条
+  • 筛选后: 45 条
+  • 最终输出: 26 条
+爬虫完成: 任务20, 原始475, 筛选45, 输出26
+
+按 Enter 键退出...
