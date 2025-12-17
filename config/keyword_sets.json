@@ -1,5 +1,5 @@
 {
-  "SEARCH_SEPARATOR_GENERAL": ["battery separator", "separator", "battery"],
+  "SEARCH_SEPARATOR_GENERAL": ["battery separator", "separator", "battery","lithium battery","PE separator","lithium separator"],
   "SEARCH_SEPARATOR_DETAILED": [
     "wet-process separator",
     "dry-process separator",

@@ -1,3 +1,9 @@
+python -m venv .Crawler
+.Crawler\Scripts\activate
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy RemoteSigned -Force
+选择解释器
+
+
 Separator_Crawler_v3/
 ├── main.py                    # 主入口
 ├── create_excel_template.py   # Excel模板生成脚本

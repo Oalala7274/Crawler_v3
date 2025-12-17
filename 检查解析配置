@@ -1,0 +1,15 @@
+检查解析配置
+  "ARGUS_MEDIA": {
+    "item_container": { "type": "css", "selector": "div.qa-news-item" },
+    "title": { "type": "css", "selector": "h3.qa-item-title" },
+    "url_logic": {
+      "method": "url_from_element",
+      "type": "css",
+      "selector": "a.qa-news-item-content"
+    },
+    "date_source": { "type": "css", "selector": "p.qa-item-date" },
+    "teaser": { "type": "css", "selector": "p.qa-item-summary" }
+  },
+
+是否匹配网站前端，抓取准确的title、url、date、teaser。并输出该配置下抓取的title、url、date、teaser
+

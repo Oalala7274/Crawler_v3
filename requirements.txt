@@ -1,20 +1,21 @@
-# Separator Crawler v3.0 依赖
-# Python 3.11+ 兼容
+﻿# Separator Crawler v3.0 渚濊禆
+# Python 3.11+ 鍏煎
 
-# 浏览器自动化
+# 娴忚鍣ㄨ嚜鍔ㄥ寲
 selenium>=4.0.0
 
-# Excel处理
+# Excel澶勭悊
 openpyxl>=3.0.0
 
-# HTML解析
+# HTML瑙ｆ瀽
 beautifulsoup4>=4.9.0
 lxml>=4.6.0
 
-# Google翻译 (选择其一)
-# 方案1: Google Cloud Translation API (需要API密钥)
+# Google缈昏瘧 (閫夋嫨鍏朵竴)
+# 鏂规1: Google Cloud Translation API (闇€瑕丄PI瀵嗛挜)
 # google-cloud-translate>=3.0.0
 
-# 方案2: 免费翻译库 (推荐)
+# 鏂规2: 鍏嶈垂缈昏瘧搴?(鎺ㄨ崘)
 googletrans==4.0.0-rc1
+
 

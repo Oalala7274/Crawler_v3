@@ -1,0 +1,202 @@
+# 锂电池隔膜行业新闻汇总
+# 生成日期: 2025-12-17
+# 共 26 条新闻
+============================================================
+
+[1]
+Title: 据日经新闻报道，日本计划从 2028 年起对电动汽车和插电式汽车征收新税
+Original Title: Japan plans new taxes on EVs and plug-ins from 2028, Nikkei reports
+Score: 100 | EV
+URL: https://www.reuters.com/world/asia-pacific/japan-plans-new-taxes-evs-plug-ins-2028-nikkei-reports-2025-12-16/
+Date: 2025-12-17 (Raw: 6 hours ago)
+----------------------------------------
+[2]
+Title: 特朗普暂停电动汽车充电计划后美国16个州起诉联邦政府
+Original Title: 16 US states sue federal government after Trump suspends EV charging programs
+Score: 100 | EV
+URL: https://www.reuters.com/business/autos-transportation/16-states-sue-trump-administration-suspending-ev-charging-infrastructure-2025-12-16/
+Date: 2025-12-17 (Raw: 7 hours ago)
+----------------------------------------
+[3]
+Title: 全球电动汽车转型面临重置，欧盟取消 2035 年内燃机禁令
+Original Title: EU drops 2035 combustion engine ban as global EV shift faces reset
+Score: 100 | EV
+URL: https://www.reuters.com/business/autos-transportation/eu-relent-combustion-engines-ban-after-auto-industry-pressure-2025-12-16/
+Date: 2025-12-17 (Raw: 11 hours ago)
+----------------------------------------
+[4]
+Title: 福特电动汽车的撤退凸显了行业的困境：为美国打造还是为世界打造？
+Original Title: Ford’s EV retreat highlights industry dilemma: Build for the US or the world?
+Score: 100 | EV
+URL: https://www.reuters.com/business/autos-transportation/fords-ev-retreat-highlights-industry-dilemma-build-us-or-world-2025-12-16/
+Date: 2025-12-17 (Raw: 12 hours ago)
+----------------------------------------
+[5]
+Title: 欧盟以 2035 年二氧化碳汽车目标放宽 ICE 淘汰：更新
+Original Title: EU eases ICE phase-out with 2035 CO2 car target: Update
+Score: 100 | electric vehicle
+URL: https://www.argusmedia.com/en/news-and-insights/latest-market-news/2766397-eu-eases-ice-phase-out-with-2035-co2-car-target-update
+Date: 2025-12-17 (Raw: 17/12/25)
+Teaser: 在第 4 至 6 段中添加有关积分、运输专员评论的详细信息 布鲁塞尔，12 月 16 日（阿格斯）——欧盟委员会提议到 2035 年将汽车排放量削减 90%，取代之前商定的 100% 目标，该目标将从该日期起有效逐步停止内燃机 (ICE) 车辆的销售。该计划将允许一些新的 ICE 车辆在 2035 年之后继续销售，同时还有插电式混合动力车、增程器和轻型汽车混合动力汽车，以及电动汽车和氢动力汽车。该委员会表示，剩余 10% 的排放量需要通过低碳钢、电子燃料或生物燃料来抵消。这些提案需要获得欧洲议会和欧盟国家多数成员的通过。汽车制造商还可以在 2030 年至 32 年间“储存和借入”信贷，以帮助实现现有的 2030 年目标，即较 2021 年水平削减 55%。根据新提案，使用这些灵活性的制造商只需实现机队平均减少 40%，低于之前计划的 50%。该委员会表示，电子燃料和生物燃料的温室气体 (GHG) 减排信用额最多可以补偿制造商 2035 年参考目标的 3%，而低碳钢信用额可以进一步补偿 7%。交通委员阿波斯托洛斯·齐齐科斯塔斯 (Apostolos Tzitzikostas) 表示，信用体系将促进可持续燃料的使用。Tzitzikostas 表示：“这是一个比纯电动汽车 (BEV) 以外的其他技术可以在 2035 年之后投放市场的明确信号。”扩大的碳中和标准将使可持续生物燃料能够帮助实现目前从 2035 年开始要求 0 克/公里的目标。欧盟可再生乙醇集团 ePure 表示，到 2024 年，乙醇排放量将比化石燃料低 79%，与前几年一致。欧洲生物柴油委员会报告称，使用 94 克 CO2e/MJ 的官方化石燃料比较器，生物柴油可节省 77-81%。德国欧洲议会议员 Peter Liese 批评了 ICE 最初的禁令，但表示行业问题源于市场变化，而不是来自布鲁塞尔。他表示：“该行业必须停止将自身错误和市场发展（例如中国市场发展）的责任归咎于布鲁塞尔。”他补充说，他将在 2035 年之前推动绿色钢铁的认可。作者：Dafydd ab Iago 发送评论并索取更多信息，请发送电子邮件至 Feedback@argusmedia.com 版权所有 © 2025。Argus Media group。版权所有。
+----------------------------------------
+[6]
+Title: 欧洲电动汽车销售的领先者和落后者
+Original Title: Europe's leaders and laggards in electric vehicle sales
+Score: 100 | electric vehicle
+URL: https://www.reuters.com/sustainability/climate-energy/europes-leaders-laggards-electric-vehicle-sales-2025-12-16/
+Date: 2025-12-16 (Raw: 14 hours ago)
+----------------------------------------
+[7]
+Title: 福特 195 亿美元的电动汽车减记预示着传统汽车制造商未来的道路将十分艰难
+Original Title: Ford's $19.5 billion EV writedown signals tough road ahead for legacy carmakers
+Score: 100 | EV
+URL: https://www.reuters.com/business/autos-transportation/fords-195-billion-ev-writedown-signals-tough-road-ahead-legacy-carmakers-2025-12-16/
+Date: 2025-12-16 (Raw: 14 hours ago)
+----------------------------------------
+[8]
+Title: 随着特朗普政策影响行业，福特退出电动汽车
+Original Title: Ford retreats from EVs as Trump policies grip industry
+Score: 100 | EV
+URL: https://www.reuters.com/business/autos-transportation/ford-retreats-evs-takes-195-billion-charge-trump-policies-take-hold-2025-12-15/
+Date: 2025-12-16 (Raw: 16 hours ago)
+----------------------------------------
+[9]
+Title: 福特 195 亿美元的电动汽车减记：需要了解的五件事
+Original Title: Ford's $19.5 billion EV writedown: five things to know
+Score: 100 | EV
+URL: https://www.reuters.com/business/autos-transportation/fords-195-billion-ev-writedown-five-things-know-2025-12-16/
+Date: 2025-12-16 (Raw: 17 hours ago)
+----------------------------------------
+[10]
+Title: 福特退出电动汽车推广后 LG Energy Solution 股价下跌 6%
+Original Title: Shares of LG Energy Solution fall 6% after Ford retreats from EV push
+Score: 100 | EV
+URL: https://www.reuters.com/world/asia-pacific/shares-lg-energy-solution-fall-6-after-ford-retreats-ev-push-2025-12-16/
+Date: 2025-12-16 (Raw: 22 hours ago)
+----------------------------------------
+[11]
+Title: 德国议员：欧盟将逐步淘汰冰车
+Original Title: EU to dilute Ice vehicle phase out: German lawmaker
+Score: 100 | EV
+URL: https://www.argusmedia.com/en/news-and-insights/latest-market-news/2765969-eu-to-dilute-ice-vehicle-phase-out-german-lawmaker
+Date: 2025-12-16 (Raw: 16/12/25)
+Teaser: 布鲁塞尔，12 月 15 日（阿格斯）——一位议员表示，欧盟委员会本周可能会削弱其到 2035 年逐步停止销售新型内燃机 (Ice) 汽车的计划。“对内燃机的禁令已经成为历史，”议会最大的中右翼团体欧洲人民党主席曼弗雷德·韦伯说。他表示，该委员会将于 12 月 16 日提出一项汽车一揽子计划，“将修订汽车二氧化碳标准，扭转对内燃机的灾难性禁令”。韦伯是德国基民盟/基社盟的成员，委员会主席乌苏拉·冯德莱恩也是如此。德国总理弗里德里希·梅尔茨 (Friedrich Merz) 呼吁欧盟允许在 2035 年之后销售配备高效内燃机的汽车、插电式混合动力汽车和增程电动汽车。这一提议遭到了抵制，超过 150 家欧洲电动汽车公司要求欧盟委员会“坚定”其 2035 年目标。一位欧盟官员表示，目前的目标可能是从 2035 年起新车温室气体排放量减少 90%。欧洲汽车制造商协会 (ACEA) 总干事西格丽德·德弗里斯 (Sigrid de Vries) 表示：“2030 年和 2035 年的目标都不现实。”“即使有 90% 的目标（到 2035 年减少温室气体排放），毫无疑问，这将是非常非常具有挑战性的。”欧洲汽车行业已经表示，如果制造商未能达到现有的排放目标，他们可能会被处以巨额罚款，这些目标是到 2029 年与 2021 年基准相比减少 15%，在 2030-34 年比相同基准减少 55%。作者：Dafydd ab Iago 发送评论并索取更多信息，请发送电子邮件至 Feedback@argusmedia.com 版权所有 © 2025。阿格斯媒体集团。版权所有。
+----------------------------------------
+[12]
+Title: 袁杰克：绿色保险支持储能扩张需要万亿美元……
+Original Title: Jack Yuan: Green Insurance Backing for Energy Storage's Expansion Lies a Trillion-Dollar ...
+Score: 140 | energy storage, expansion
+URL: https://wap.stockstar.com/detail/IG2025121500036874
+Date: Unknown (Raw: 1 天)
+Teaser: 袁杰克：从技术角度来看，磷酸铁锂电池目前在大规模储能领域占据主导地位……
+----------------------------------------
+[13]
+Title: 虽然福特股价在上涨 200 亿美元后表现非常稳定，但这些股票正在变得……
+Original Title: While Ford shares are remarkably steady after $20 billion charge, these stocks are getting ...
+Score: 100 | electric vehicle
+URL: https://www.msn.com/en-us/money/companies/while-ford-shares-are-remarkably-steady-after-20-billion-charge-these-stocks-are-getting-battered/ar-AA1SrL1A?ocid=BingNewsVerp
+Date: Unknown (Raw: 18 小时)
+Teaser: 福特汽车公司决定收取近 200 亿美元的费用，从电动汽车转向混合动力汽车，但这一决定几乎没有……
+----------------------------------------
+[14]
+Title: USABC 推出九款 EVbatterycell RFPI
+Original Title: USABC launches nine EVbatterycell RFPIs
+Score: 100 | EV battery
+URL: https://www.bestmag.co.uk/usabc-launches-nine-ev-battery-cell-rfpis/
+Date: Unknown (Raw: 19 小时)
+Teaser: USABC 是 USCAR 的一部分，已宣布九项提案信息请求 (RFPI)，以推进电动汽车电池技术。
+----------------------------------------
+[15]
+Title: 锂离子电池的分析解决方案
+Original Title: Analytical Solutions for Li-Ion Batteries
+Score: 100 | li-ion
+URL: https://www.azom.com/article.aspx?ArticleID=24738
+Date: Unknown (Raw: 1 天)
+Teaser: 多孔聚合物膜将阳极和阴极分开以防止短路。电解质是最终成分，通常是导电盐溶液，有助于......
+----------------------------------------
+[16]
+Title: 科学家制造的电池最终将解锁无质量能量存储
+Original Title: Scientists Built theBatteryThat Will Finally Unlock Massless Energy Storage
+Score: 100 | energy storage
+URL: https://ca.news.yahoo.com/scientists-built-battery-finally-unlock-170100272.html
+Date: Unknown (Raw: 6 天)
+Teaser: 在突破性的研究中，科学家们制造出了比之前任何实验都要好 10 倍的结构电池。
+----------------------------------------
+[17]
+Title: 12 月最值得买入的 2 只电动汽车股票
+Original Title: 2 Top EV Stocks to Buy in December
+Score: 100 | EV
+URL: https://www.theglobeandmail.com/investing/markets/stocks/NIO/pressreleases/36594903/2-top-ev-stocks-to-buy-in-december/
+Date: Unknown (Raw: 4 天)
+Teaser: QuantumScape 旨在通过其用于电动汽车的 QSE-5 电池打破这一瓶颈，该电池的能量密度为 844 Wh/L ...
+----------------------------------------
+[18]
+Title: 福特转战储能赛道：从放弃大尺寸电动车到开辟电池新蓝海
+Score: 100 | energy storage
+URL: https://www.sohu.com/a/965683679_122145333
+Date: Unknown (Raw: 1 天)
+Teaser: 12月16日，在 福特逐步收缩大尺寸电动汽车生产 的背景下，该公司宣布将原本为这些车型配套的动力电池产能，转向一个全新业务方向—— 电池储能系统 （Battery Energy Storage Systems, BESS）。这一战略调整不仅关乎产能再利用，更折射出全球汽车巨头在电动化浪潮中，对 多元化能源业务 的深度布局。 密歇根州BlueOval Battery Park ...
+----------------------------------------
+[19]
+Title: 全球大单频现！磷酸铁锂储能火爆 中国储能企业捷报频传
+Score: 100 | 锂电池
+URL: https://fund.eastmoney.com/a/202512113588900813.html
+Date: Unknown (Raw: 5 天)
+Teaser: 12月10日，三星SDI发布消息，其美国子公司近期与一家美国客户签订协议，将在2027年起的三年内为对方的 储能 系统供应磷酸铁 锂电池 ，这份合同的价值超过2万亿韩元（约合人民币96亿元）。
+----------------------------------------
+[20]
+Title: 为我的 Tesla Model Y 电池开采材料对地球有益
+Original Title: Mining the Materials for My Tesla Model YBatteryIs Good for the Planet
+Score: 100 | EV battery
+URL: https://www.torquenews.com/18004/mining-materials-my-tesla-model-y-battery-good-planet
+Date: Unknown (Raw: 3 分钟)
+Teaser: 正如所讨论的，电动汽车电池含有昂贵的材料，如锂、钴和镍。这些金属是有限的，而且通常...
+----------------------------------------
+[21]
+Title: 以下是使用锂离子电池时的一些安全提示
+Original Title: Here are some safety tips when usinglithium-ionbatteries
+Score: 100 | lithium-ion battery
+URL: https://www.msn.com/en-us/travel/tips/here-are-some-safety-tips-when-using-lithium-ion-batteries/ar-AA1SutST?ocid=BingNewsVerp
+Date: Unknown (Raw: 51 分钟)
+Teaser: 如果您在使用、储存或处置时不遵循产品说明，锂离子电池可能会导致火灾危险...
+----------------------------------------
+[22]
+Title: 长城汽车推出 Ora 5 EV，售价约 20,000 美元，可能销往澳大利亚
+Original Title: GWM unveils Ora 5 EV for around $20,000, could be headed to Australia
+Score: 100 | EV
+URL: https://thedriven.io/2025/12/17/gwm-unveils-ora-5-ev-for-under-22000/
+Date: Unknown (Raw: 2 小时)
+Teaser: 长城汽车推出了一款新电动汽车 Ora 5 纯电动 SUV，起价约为 20,000 澳元，...
+----------------------------------------
+[23]
+Title: 福特的下一代 F-150 Lightning 将配备燃气发电机，远离大型电动汽车
+Original Title: Ford’s next F-150 Lightning will have a gas generator as it pivots away from large EVs
+Score: 100 | EV
+URL: https://www.businessghana.com/site/news/Technology/340142/Ford’s-next-F-150-Lightning-will-have-a-gas-generator-as-it-pivots-away-from-large-EVs-
+Date: Unknown (Raw: 2 小时)
+Teaser: 福特于 2021 年推出了 F-150 Lightning，两年前该公司首次宣布了全电动野马 Mach-E 的计划。福特预告 Lightning 的售价为 40,000 美元，这本来是...
+----------------------------------------
+[24]
+Title: 辉能推出第四代固态电池，瞄准电动汽车、机器人、ESS
+Original Title: ProLogium unveils fourth-gen solid-statebatterytargeting EVs, robotics, ESS
+Score: 100 | EV
+URL: https://www.digitimes.com/news/a20251216PD223/solid-state-battery-lithium-prologium-robotics-production.html
+Date: Unknown (Raw: 5 小时)
+Teaser: 下一代锂陶瓷电池制造商辉能科技宣布推出其第四代...
+----------------------------------------
+[25]
+Title: USABC 推出九款电动汽车电池 RFPI
+Original Title: USABC launches nine EV battery cell RFPIs
+Score: 100 | EV battery
+URL: https://www.bestmag.co.uk/usabc-launches-nine-ev-battery-cell-rfpis/
+Date: Unknown (Raw: 19 小时)
+Teaser: USABC 是 USCAR 的一部分，已宣布九项提案信息请求 (RFPI)，以推进电动汽车电池技术。
+----------------------------------------
+[26]
+Title: 锂离子电池的分析解决方案
+Original Title: Analytical solutions forLi-Ion batteries
+Score: 100 | lithium-ion battery
+URL: https://www.msn.com/en-gb/technology/general/analytical-solutions-for-li-ion-batteries/ar-AA1SnEHT?ocid=BingNewsVerp
+Date: Unknown (Raw: 1 天)
+Teaser: 锂离子电池生产的质量控制依赖于先进的分析技术。探索水分含量和金属离子表征的方法。
+----------------------------------------

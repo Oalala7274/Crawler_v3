@@ -117,7 +117,8 @@ def pause_for_manual_fix(driver, reason: str, error_code: str = "E000") -> str:
         error_code: 错误代码
         
     Returns:
-        'continue' - 用户输入C，继续执行
+        'continue' - 用户输入C，继续执行（刷新页面重试）
+        'continue_no_refresh' - 用户输入R，继续执行（不刷新，直接继续）
         'skip' - 用户输入P，跳过当前任务
     """
     logger = get_logger()
@@ -129,6 +130,7 @@ def pause_for_manual_fix(driver, reason: str, error_code: str = "E000") -> str:
     print("\n请在浏览器中手动处理（如验证码、登录等）")
     print("\n处理完成后，请输入:")
     print("  C - 继续执行（刷新页面重试）")
+    print("  R - 继续执行（不刷新，直接继续）")
     print("  P - 跳过当前任务")
     print("=" * 60)
     
@@ -136,21 +138,29 @@ def pause_for_manual_fix(driver, reason: str, error_code: str = "E000") -> str:
     
     while True:
         try:
-            user_input = input("\n请输入选项 (C/P): ").strip().upper()
+            user_input = input("\n请输入选项 (C/R/P): ").strip().upper()
             
             if user_input == 'C':
-                logger.info("用户选择继续执行")
+                logger.info("用户选择继续执行（刷新页面）")
                 print("\n✓ 继续执行，正在刷新页面...")
                 return 'continue'
+            elif user_input == 'R':
+                logger.info("用户选择继续执行（不刷新）")
+                print("\n✓ 继续执行，不刷新页面...")
+                return 'continue_no_refresh'
             elif user_input == 'P':
                 logger.info("用户选择跳过当前任务")
                 print("\n→ 跳过当前任务")
                 return 'skip'
             else:
-                print("无效输入，请输入 C 或 P")
+                print("无效输入，请输入 C、R 或 P")
         except KeyboardInterrupt:
             print("\n用户中断")
             return 'skip'
+        except EOFError:
+            # 处理编码问题
+            print("\n输入错误，请重试")
+            continue
 
 
 def log_task_start(task_id: str, url: str):

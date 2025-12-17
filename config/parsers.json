@@ -6,7 +6,7 @@
     "teaser": { "tag": "b", "attrs": {} },
     "url_logic": { "method": "find_in_container", "tag": "a", "attrs": {} }
   },
-  "ARGUS_MEDIA_SEARCH": {
+  "ARGUS_MEDIA": {
     "item_container": { "type": "css", "selector": "div.qa-news-item" },
     "title": { "type": "css", "selector": "h3.qa-item-title" },
     "url_logic": {
@@ -24,7 +24,7 @@
       "tag": "time",
       "attrs": { "data-testid": "DateLineText" }
     },
-    "teaser": { "tag": "span", "attrs": { "data-testid": "TitleHeading" } },
+    "teaser": null,
     "url_logic": {
       "method": "find_in_container",
       "tag": "a",

@@ -1,0 +1,20 @@
+{"task_id": "4d07550d", "url": "https://news.google.com/search?q=Separator&hl=en", "parser_name": "google_news", "action_name": "WAIT", "filter_name": "", "engine": "chrome"}
+{"task_id": "2182a3de", "url": "https://www.reuters.com/site-search/?query=battery separator", "parser_name": "REUTERS_SEARCH", "action_name": "INFINITE_SCROLL", "filter_name": "", "engine": "chrome"}
+{"task_id": "8ad433d5", "url": "https://www.reuters.com/site-search/?query=separator", "parser_name": "REUTERS_SEARCH", "action_name": "INFINITE_SCROLL", "filter_name": "", "engine": "chrome"}
+{"task_id": "224d0f84", "url": "https://www.reuters.com/site-search/?query=battery", "parser_name": "REUTERS_SEARCH", "action_name": "INFINITE_SCROLL", "filter_name": "", "engine": "chrome"}
+{"task_id": "69df974e", "url": "https://www.reuters.com/site-search/?query=lithium battery", "parser_name": "REUTERS_SEARCH", "action_name": "INFINITE_SCROLL", "filter_name": "", "engine": "chrome"}
+{"task_id": "17b9e99d", "url": "https://www.reuters.com/site-search/?query=PE separator", "parser_name": "REUTERS_SEARCH", "action_name": "INFINITE_SCROLL", "filter_name": "", "engine": "chrome"}
+{"task_id": "a665faa7", "url": "https://www.reuters.com/site-search/?query=lithium separator", "parser_name": "REUTERS_SEARCH", "action_name": "INFINITE_SCROLL", "filter_name": "", "engine": "chrome"}
+{"task_id": "63f1bb8e", "url": "https://www.bing.com/news/search?q=battery separator&qft=sortbydate%3d%221%22&form=YFNR", "parser_name": "BING_NEWS_SEARCH", "action_name": "WAIT", "filter_name": "", "engine": "chrome"}
+{"task_id": "cdbcafe4", "url": "https://www.bing.com/news/search?q=separator&qft=sortbydate%3d%221%22&form=YFNR", "parser_name": "BING_NEWS_SEARCH", "action_name": "WAIT", "filter_name": "", "engine": "chrome"}
+{"task_id": "90bd369e", "url": "https://www.bing.com/news/search?q=battery&qft=sortbydate%3d%221%22&form=YFNR", "parser_name": "BING_NEWS_SEARCH", "action_name": "WAIT", "filter_name": "", "engine": "chrome"}
+{"task_id": "5082de31", "url": "https://www.bing.com/news/search?q=lithium battery&qft=sortbydate%3d%221%22&form=YFNR", "parser_name": "BING_NEWS_SEARCH", "action_name": "WAIT", "filter_name": "", "engine": "chrome"}
+{"task_id": "0d4d1348", "url": "https://www.bing.com/news/search?q=PE separator&qft=sortbydate%3d%221%22&form=YFNR", "parser_name": "BING_NEWS_SEARCH", "action_name": "WAIT", "filter_name": "", "engine": "chrome"}
+{"task_id": "dbe840f9", "url": "https://www.bing.com/news/search?q=lithium separator&qft=sortbydate%3d%221%22&form=YFNR", "parser_name": "BING_NEWS_SEARCH", "action_name": "WAIT", "filter_name": "", "engine": "chrome"}
+{"task_id": "ea6a6eae", "url": "https://batteriesnews.com/?s=battery separator", "parser_name": "BATTERIES_NEWS_SEARCH", "action_name": "WAIT", "filter_name": "", "engine": "chrome"}
+{"task_id": "877498aa", "url": "https://batteriesnews.com/?s=separator", "parser_name": "BATTERIES_NEWS_SEARCH", "action_name": "WAIT", "filter_name": "", "engine": "chrome"}
+{"task_id": "e2a5dd68", "url": "https://batteriesnews.com/?s=battery", "parser_name": "BATTERIES_NEWS_SEARCH", "action_name": "WAIT", "filter_name": "", "engine": "chrome"}
+{"task_id": "19c7c9b3", "url": "https://batteriesnews.com/?s=lithium battery", "parser_name": "BATTERIES_NEWS_SEARCH", "action_name": "WAIT", "filter_name": "", "engine": "chrome"}
+{"task_id": "33e50f11", "url": "https://batteriesnews.com/?s=PE separator", "parser_name": "BATTERIES_NEWS_SEARCH", "action_name": "WAIT", "filter_name": "", "engine": "chrome"}
+{"task_id": "e4c62f16", "url": "https://batteriesnews.com/?s=lithium separator", "parser_name": "BATTERIES_NEWS_SEARCH", "action_name": "WAIT", "filter_name": "", "engine": "chrome"}
+{"task_id": "a4e40a5c", "url": "https://www.argusmedia.com/en/news-and-insights/latest-market-news", "parser_name": "ARGUS_MEDIA", "action_name": "WAIT", "filter_name": "", "engine": "chrome"}

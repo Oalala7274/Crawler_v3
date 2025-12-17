@@ -249,7 +249,7 @@ def check_for_captcha(driver: webdriver.Edge) -> bool:
 
 def check_for_block(driver: webdriver.Edge) -> bool:
     """
-    检测页面是否被反爬封锁
+    检测页面是否被反爬封锁（改进版，减少误判）
     
     Args:
         driver: WebDriver实例
@@ -257,22 +257,48 @@ def check_for_block(driver: webdriver.Edge) -> bool:
     Returns:
         检测到封锁返回True
     """
-    block_indicators = [
-        'access denied',
-        'forbidden',
-        '403',
-        'blocked',
-        'rate limit',
-        'too many requests',
-        '429'
-    ]
+    import re
     
     page_source = driver.page_source.lower()
     page_title = driver.title.lower()
     
-    for indicator in block_indicators:
+    # 明确的封锁关键词（不包含数字，避免误判）
+    explicit_indicators = [
+        'access denied',
+        'access forbidden',
+        'forbidden',
+        'you have been blocked',
+        'your request has been blocked',
+        'rate limit exceeded',
+        'too many requests',
+        'service unavailable',
+        'blocked by',
+    ]
+    
+    # 检查明确的错误信息
+    for indicator in explicit_indicators:
         if indicator in page_source or indicator in page_title:
             return True
+    
+    # 检查HTTP状态码（需要结合上下文，避免误判）
+    # 只有当页面明确显示错误页面时才判断为封锁
+    status_patterns = [
+        (r'\b403\b', ['forbidden', 'denied', 'error', 'blocked']),
+        (r'\b429\b', ['too many', 'rate limit', 'error', 'exceeded']),
+    ]
+    
+    for pattern, context_keywords in status_patterns:
+        if re.search(pattern, page_source) or re.search(pattern, page_title):
+            # 验证是否在错误页面上下文中
+            # 如果数字出现在URL或普通文本中，不应该触发
+            context_text = page_source + ' ' + page_title
+            if any(keyword in context_text for keyword in context_keywords):
+                # 进一步检查：如果是错误页，通常标题或页面开头会有明确的错误信息
+                if any(error_word in page_title for error_word in ['error', 'forbidden', 'denied', 'blocked']):
+                    return True
+                # 或者检查页面是否很短（错误页面通常内容较少）
+                if len(page_source) < 5000 and ('error' in page_source[:2000] or 'forbidden' in page_source[:2000]):
+                    return True
     
     return False
 

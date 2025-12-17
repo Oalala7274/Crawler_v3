@@ -1,0 +1,14 @@
+2025-12-17 11:43:20 | INFO     | 日志文件: C:\VsodeProject\Separator_Crawler_v3\log\20251217_114320_crawler.log
+2025-12-17 11:43:45 | INFO     | 任务开始: 1ff8a859 | URL: https://news.google.com/search?q=Separator&hl=en...
+2025-12-17 11:43:57 | WARNING  | [E002] 暂停等待人工介入: 检测到访问被阻止（403/429），请稍后重试
+2025-12-17 11:44:07 | INFO     | 用户选择继续执行
+2025-12-17 11:44:20 | WARNING  | [E002] 暂停等待人工介入: 检测到访问被阻止（403/429），请稍后重试
+2025-12-17 11:44:28 | INFO     | 用户选择跳过当前任务
+2025-12-17 11:44:28 | INFO     | 任务开始: a53ff489 | URL: https://www.reuters.com/site-search/?query=battery separator...
+2025-12-17 11:44:37 | WARNING  | [E002] 暂停等待人工介入: 检测到访问被阻止（403/429），请稍后重试
+2025-12-17 11:44:49 | INFO     | 用户选择继续执行
+2025-12-17 11:45:12 | WARNING  | [E002] 暂停等待人工介入: 检测到访问被阻止（403/429），请稍后重试
+2025-12-17 13:00:58 | INFO     | 任务开始: 89d4e415 | URL: https://www.reuters.com/site-search/?query=separator...
+2025-12-17 13:00:58 | ERROR    | [E003] 浏览器操作异常: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+2025-12-17 13:01:17 | ERROR    | [E003] 浏览器操作异常: HTTPConnectionPool(host='localhost', port=64986): Max retries exceeded with url: /session/51d7cd8b202f24fa16c1bdd97b7addee/timeouts (Caused by NewConnectionError("HTTPConnection(host='localhost', port=64986): Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。"))
+2025-12-17 13:01:28 | INFO     | 用户中断执行

@@ -67,6 +67,11 @@ def run(task: CrawlTask, driver: webdriver.Edge, config: dict = None) -> Optiona
                     perform_refresh(driver)
                     time.sleep(3)
                     continue
+                elif action == 'continue_no_refresh':
+                    # 不刷新，直接继续
+                    time.sleep(2)  # 给一点时间让用户处理
+                    # 不刷新，直接继续执行后续动作
+                    pass
             
             if check_for_block(driver):
                 action = pause_for_manual_fix(
@@ -81,6 +86,11 @@ def run(task: CrawlTask, driver: webdriver.Edge, config: dict = None) -> Optiona
                     perform_refresh(driver)
                     time.sleep(3)
                     continue
+                elif action == 'continue_no_refresh':
+                    # 不刷新，直接继续
+                    time.sleep(2)  # 给一点时间让用户处理
+                    # 不刷新，直接继续执行后续动作
+                    pass
             
             # 执行动作
             _execute_action(driver, task.action_name)
